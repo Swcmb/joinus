@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抽奖活动</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎁 年度抽奖活动</h1>
+        <div class="prize-info">
+            <h2>奖品设置</h2>
+            <ul>
+                <li>一等奖：水杯（50%概率）或网易云音乐会员（50%概率） - 概率 10%</li>
+                <li>二等奖：薯片（共4个） - 概率 20%</li>
+                <li>三等奖：茶包（共7个） - 概率 30%</li>
+                <li>参与奖：小饼干+贴纸 - 概率 40%</li>
+            </ul>
+        </div>
+        
+        <button id="drawButton">开始抽奖</button>
+        
+        <div id="result" class="result hidden">
+            <h2>恭喜您获得</h2>
+            <div id="prizeResult"></div>
+            <div id="welcomeSection" class="welcome-section hidden">
+                <h3>欢迎加入程序竞赛协会</h3>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
